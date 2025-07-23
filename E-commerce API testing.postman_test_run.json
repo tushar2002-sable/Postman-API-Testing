@@ -1,0 +1,129 @@
+{
+	"id": "e3dfbc48-7908-45a5-a907-d689f2eb71f7",
+	"name": "E-commerce API testing",
+	"timestamp": "2025-07-23T11:58:09.371Z",
+	"collection_id": "46912864-251138fa-8626-414d-884d-b14a461e8073",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 2,
+	"delay": "200",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-07-23T11:58:02.632Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "df86b4c6-fa8b-414b-aa5c-9dfcfa547de6",
+			"name": "Get Users",
+			"url": "https://reqres.in/api/users",
+			"time": 238,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				918,
+				238
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "497d39cf-2aee-4223-8bd2-e120e0302db2",
+			"name": "Create user",
+			"url": "https://reqres.in/api/users",
+			"time": 320,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				326,
+				320
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		},
+		{
+			"id": "93e9e323-0487-47ae-9733-492c415afd8e",
+			"name": "Update user",
+			"url": "https://reqres.in/api/users/2",
+			"time": 403,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				625,
+				403
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		},
+		{
+			"id": "ff4395b6-dad0-431d-a324-8961b7e70be6",
+			"name": "Delete User",
+			"url": "https://reqres.in/api/users/2",
+			"time": 327,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				430,
+				327
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		}
+	],
+	"count": 2,
+	"totalTime": 3587,
+	"collection": {
+		"requests": [
+			{
+				"id": "df86b4c6-fa8b-414b-aa5c-9dfcfa547de6",
+				"method": "GET"
+			},
+			{
+				"id": "497d39cf-2aee-4223-8bd2-e120e0302db2",
+				"method": "POST"
+			},
+			{
+				"id": "93e9e323-0487-47ae-9733-492c415afd8e",
+				"method": "PUT"
+			},
+			{
+				"id": "ff4395b6-dad0-431d-a324-8961b7e70be6",
+				"method": "DELETE"
+			}
+		]
+	}
+}
